@@ -77,16 +77,16 @@ export function Hero() {
 
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 pt-12 max-w-2xl mx-auto">
-            <div className="space-y-1">
-              <div className="text-3xl font-['Space_Grotesk'] font-bold text-accent">1.2K+</div>
+            <div className="space-y-1 group cursor-default">
+              <div className="text-3xl font-['Space_Grotesk'] font-bold text-accent group-hover:scale-110 transition-transform">1.2K+</div>
               <div className="text-sm text-muted-foreground">Verified Projects</div>
             </div>
-            <div className="space-y-1">
-              <div className="text-3xl font-['Space_Grotesk'] font-bold text-accent">48M</div>
+            <div className="space-y-1 group cursor-default">
+              <div className="text-3xl font-['Space_Grotesk'] font-bold text-accent group-hover:scale-110 transition-transform">48M</div>
               <div className="text-sm text-muted-foreground">Trees Tracked</div>
             </div>
-            <div className="space-y-1">
-              <div className="text-3xl font-['Space_Grotesk'] font-bold text-accent">892</div>
+            <div className="space-y-1 group cursor-default">
+              <div className="text-3xl font-['Space_Grotesk'] font-bold text-accent group-hover:scale-110 transition-transform">892</div>
               <div className="text-sm text-muted-foreground">NFTs Minted</div>
             </div>
           </div>
